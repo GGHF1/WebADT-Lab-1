@@ -1,0 +1,58 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+p{
+    color: #3c3b3b;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.mainBanner{
+    filter: blur(5px);
+}
+
+.band-section {
+    background-color: #fafafa; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 40px; 
+    margin: 20px auto; 
+}
+
+.hoverTxt {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.toggleBtn{
+    margin: 20px auto;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 5%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.toggleBtn:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+@keyframes colorChange {
+    0% { color: rgb(0, 0, 0); }
+    25% { color: rgb(121, 121, 121); }
+    50% { color: rgb(177, 176, 176); }
+    75% { color: rgb(121, 121, 121); }
+    100% { color: rgb(0, 0, 0); }
+}
+  
+.w3-wide {
+    animation: colorChange 5s infinite;
+}
+  
